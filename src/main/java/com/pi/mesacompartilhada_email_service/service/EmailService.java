@@ -1,5 +1,6 @@
-package com.pi.mesacompartilhada_email_service;
+package com.pi.mesacompartilhada_email_service.service;
 
+import com.pi.mesacompartilhada_email_service.model.Email;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
