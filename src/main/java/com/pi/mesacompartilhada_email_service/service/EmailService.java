@@ -26,5 +26,6 @@ public class EmailService {
         message.setSubject(email.subject());
         message.setText(email.body());
         mailSender.send(message);
+        System.out.println(">>> Enviando email para " + email.to());
     }
 }
